@@ -3,24 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EE46CC4610E19DCCB8E65AA /* Pods_Bar_Charts_in_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D637ECC948CEAF37AA820BA /* Pods_Bar_Charts_in_Swift.framework */; };
 		E852779526204E980002C33B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852779426204E980002C33B /* AppDelegate.swift */; };
 		E852779726204E980002C33B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852779626204E980002C33B /* SceneDelegate.swift */; };
 		E852779926204E980002C33B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E852779826204E980002C33B /* ViewController.swift */; };
-		E852779C26204E980002C33B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E852779A26204E980002C33B /* Main.storyboard */; };
 		E852779E26204E9A0002C33B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E852779D26204E9A0002C33B /* Assets.xcassets */; };
 		E85277A126204E9A0002C33B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E852779F26204E9A0002C33B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		217B935DD7D4F5D5F8FA2CE1 /* Pods-Bar Charts in Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bar Charts in Swift.debug.xcconfig"; path = "Target Support Files/Pods-Bar Charts in Swift/Pods-Bar Charts in Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		3D637ECC948CEAF37AA820BA /* Pods_Bar_Charts_in_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bar_Charts_in_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97E83B8FE195A964C014D81E /* Pods-Bar Charts in Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bar Charts in Swift.release.xcconfig"; path = "Target Support Files/Pods-Bar Charts in Swift/Pods-Bar Charts in Swift.release.xcconfig"; sourceTree = "<group>"; };
 		E852779126204E980002C33B /* Bar Charts in Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bar Charts in Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E852779426204E980002C33B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E852779626204E980002C33B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E852779826204E980002C33B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E852779B26204E980002C33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E852779D26204E9A0002C33B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E85277A026204E9A0002C33B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E85277A226204E9A0002C33B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EE46CC4610E19DCCB8E65AA /* Pods_Bar_Charts_in_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B7A13E1BCE4430926EEAE4A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				217B935DD7D4F5D5F8FA2CE1 /* Pods-Bar Charts in Swift.debug.xcconfig */,
+				97E83B8FE195A964C014D81E /* Pods-Bar Charts in Swift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDE9E1793503CCE9F786F62B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D637ECC948CEAF37AA820BA /* Pods_Bar_Charts_in_Swift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E852778826204E980002C33B = {
 			isa = PBXGroup;
 			children = (
 				E852779326204E980002C33B /* Bar Charts in Swift */,
 				E852779226204E980002C33B /* Products */,
+				B7A13E1BCE4430926EEAE4A3 /* Pods */,
+				DDE9E1793503CCE9F786F62B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,7 +81,6 @@
 				E852779426204E980002C33B /* AppDelegate.swift */,
 				E852779626204E980002C33B /* SceneDelegate.swift */,
 				E852779826204E980002C33B /* ViewController.swift */,
-				E852779A26204E980002C33B /* Main.storyboard */,
 				E852779D26204E9A0002C33B /* Assets.xcassets */,
 				E852779F26204E9A0002C33B /* LaunchScreen.storyboard */,
 				E85277A226204E9A0002C33B /* Info.plist */,
@@ -74,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E85277A526204E9A0002C33B /* Build configuration list for PBXNativeTarget "Bar Charts in Swift" */;
 			buildPhases = (
+				F96958E63D80B5768C0918B6 /* [CP] Check Pods Manifest.lock */,
 				E852778D26204E980002C33B /* Sources */,
 				E852778E26204E980002C33B /* Frameworks */,
 				E852778F26204E980002C33B /* Resources */,
+				372D4BE35E92C1E8CBC1DCA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,11 +149,52 @@
 			files = (
 				E85277A126204E9A0002C33B /* LaunchScreen.storyboard in Resources */,
 				E852779E26204E9A0002C33B /* Assets.xcassets in Resources */,
-				E852779C26204E980002C33B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		372D4BE35E92C1E8CBC1DCA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bar Charts in Swift/Pods-Bar Charts in Swift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bar Charts in Swift/Pods-Bar Charts in Swift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bar Charts in Swift/Pods-Bar Charts in Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F96958E63D80B5768C0918B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bar Charts in Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E852778D26204E980002C33B /* Sources */ = {
@@ -146,14 +210,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E852779A26204E980002C33B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E852779B26204E980002C33B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E852779F26204E9A0002C33B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +339,7 @@
 		};
 		E85277A626204E9A0002C33B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217B935DD7D4F5D5F8FA2CE1 /* Pods-Bar Charts in Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +359,7 @@
 		};
 		E85277A726204E9A0002C33B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E83B8FE195A964C014D81E /* Pods-Bar Charts in Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
