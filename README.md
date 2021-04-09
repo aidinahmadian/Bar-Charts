@@ -8,7 +8,7 @@
 
 ## Installation
 
-Charts is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
+I'm using **Charts** pod for making this simple project. Charts is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ### Cocoapods
 
