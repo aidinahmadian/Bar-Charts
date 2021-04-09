@@ -1,6 +1,6 @@
 # Bar-Charts
-Bar Charts Model in Swift, Programmatically without Storyboard Using Swift 5.0+
-Bar Charts app is written in Swift 5.0+. It can be built by Xcode 11.0 or later. Compatible with iOS 13.0+.
+
+**Bar Charts** app is using Autolayout (programmatically - without Storyboard) in **Swift 5.0+** and It can be built by *Xcode 11.0* or later. Compatible with *iOS 13.0/14.0+*.
 
 ### Photos Sample
 
